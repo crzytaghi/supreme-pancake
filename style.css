@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  background: rgb(246,246,246);
+  padding: 10px;
+  margin: 0;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  margin: 15px;
+}
+
+.nav-links a,
+.top-nav a {
+  margin-right: 5px;
+}
+
+.nav-links button {
+  background: rgb(228,54,46);
+  padding: 10px;
+  color: white;
+  border: none;
+  margin: 10px;
+}
+
+.nav-links button:hover {
+  background: rgb(85,85,85);
+  color: rgb(228,54,46);
+  cursor: pointer;
+}
+
+.img {
+  background-image: url("https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 500px; */
+}
+
+.image-text {
+  padding: 200px;
+  text-align: center;
+  color: white;
+}
+
+.image-text button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background: rgba(228,54,46,0.8);
+  color: white;
+}
+
+.image-text button:hover {
+  background: rgb(228,54,46);
+  cursor: pointer;
+  color: white;
+}
+
+.divide-bar {
+  text-align: center;
+  background: rgb(228,54,46);
+  color: white;
+  padding: 40px 60px;
+  font-size: 20px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.carousel {
+  padding: 40px;
+}
+
+.carousel p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.company-logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#kawaski {
+  width: 150px;
+  height: 45px;
+}
+
+#heb {
+  width: 125px;
+  height: 75px;
+}
+
+#SurveyMonkey {
+  height: 85px;
+}
+
+.company-logo img{
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+
+.try-it {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(239,239,239);
+  padding: 20px;
+}
+
+.description {
+  margin: auto;
+  padding: 20px;
+}
+
+.description p {
+  color: rgb(84,84,84);
+  padding: 15px;
+}
+
+.description button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background: rgba(228,54,46,0.8);
+  color: white;
+}
+
+.description button:hover {
+  background: rgb(228,54,46);
+  cursor: pointer;
+}
+
+.try-it img {
+  width: 42em;
+  height: 30em;
+  margin-left: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.individual-feature {
+  width: 15%;
+}
+
+.features h3 {
+  color: rgb(228,54,46);
+}
+
+.validate {
+  background: rgb(245,245,245);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-individual {
+  width: 36em;
+  height: 12em;
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 15px grey;
+}
+
+.card-individual h3 {
+  color: rgb(228,54,46);
+}
+
+.card-individual h3,
+.card-individual p {
+  padding: 9px;
+}
+
+.protect {
+  background: rgb(228,54,46);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+.protect h3 {
+  padding: 20px;
+  font-size: 36px;
+}
+
+.protect button {
+  padding: 10px;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(28,28,28);
+  color: rgb(100,100,100);
+  padding: 40px;
+}
+
+.footer-column h4 {
+  margin: 10px;
+}
+
+.footer-column ul,
+.footer-column p {
+  color: rgb(190,190,190);
+  margin: 10px;
+}
+
+.footer-column {
+  width: 24em;
+  list-style: none;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.privacy {
+  border-top: 1px solid rgb(45,45,45);
+  padding: 30px;
+  background: rgb(28,28,28);
+  color: rgb(190,190,190);
+}
