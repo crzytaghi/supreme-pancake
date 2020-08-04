@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 .top-nav {
@@ -86,7 +87,7 @@ a:link {
   text-align: center;
   background: rgb(228,54,46);
   color: white;
-  padding: 40px 60px;
+  padding: 40px 80px;
   font-size: 20px;
 }
 
@@ -186,11 +187,12 @@ a:link {
 }
 
 .individual-feature {
-  width: 15%;
+  width: 20%;
 }
 
 .features h3 {
   color: rgb(228,54,46);
+  margin-bottom: 10px;
 }
 
 .validate {
@@ -198,6 +200,10 @@ a:link {
   width: 100%;
   text-align: center;
   padding: 20px;
+}
+
+.validated-header {
+  font-size: 24px;
 }
 
 .cards {
@@ -210,7 +216,7 @@ a:link {
 
 .card-individual {
   width: 36em;
-  height: 12em;
+  height: 15em;
   background: white;
   padding: 20px;
   margin: 10px;
@@ -242,6 +248,12 @@ a:link {
 .protect button {
   padding: 10px;
   border: none;
+  background: rgba(255,255,255,0.8);
+}
+
+.protect button:hover {
+  cursor: pointer;
+  background: white;
 }
 
 .footer {
@@ -268,13 +280,22 @@ a:link {
   list-style: none;
 }
 
-.footer-column ul {
+.footer-column li {
   list-style: none;
+  margin: 10px;
 }
 
 .privacy {
   border-top: 1px solid rgb(45,45,45);
   padding: 30px;
   background: rgb(28,28,28);
-  color: rgb(190,190,190);
+  color: rgb(80,80,80);
+}
+
+.privacy a {
+  color: rgb(182,182,182);
+}
+
+.privacy a:hover {
+  color: rgb(221,54,46);
 }
